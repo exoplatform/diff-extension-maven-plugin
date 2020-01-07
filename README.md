@@ -38,7 +38,7 @@ The configuration part contains few parameters :
     <configuration>
           <abortBuildOnDiff>false</abortBuildOnDiff>
           <sourceVersion>5.2.1</sourceVersion>
-          <targetVersion>6.0.0-M12</targetVersion>
+          <targetVersion>${org.exoplatform.platform.version}</targetVersion>
           <files>
             <fileToCheck>
               <groupId>org.exoplatform.platform</groupId>
@@ -101,3 +101,4 @@ The configuration in example make this output :
 [INFO] ------------------------------------------------------------------------
 
 ```
+
