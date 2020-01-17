@@ -190,7 +190,7 @@ public class DiffExtensionMojo extends AbstractMojo {
         return lines;
     }
 
-    private File unpack(Artifact artifact) throws MojoExecutionException {
+    public File unpack(Artifact artifact) throws MojoExecutionException {
         File file=artifact.getFile();
         String path =
                 outputDirectory.getPath()+"/"+artifact.getGroupId()+"-"+artifact.getArtifactId()+"-"+artifact.getVersion();
