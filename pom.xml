@@ -17,7 +17,12 @@
     </plugins>
   </build>
   <packaging>maven-plugin</packaging>
- 
+  <scm>
+    <connection>scm:git:git://github.com/exoplatform/diff-extension-maven-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:exoplatform/diff-extension-maven-plugin.git</developerConnection>
+    <tag>HEAD</tag>
+    <url>https://github.com/exoplatform/diff-extension-maven-plugin</url>
+  </scm> 
   <name>Diff Extension Maven Plugin</name>
   <properties>
     <mavenVersion>3.0</mavenVersion>
