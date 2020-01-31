@@ -3,7 +3,7 @@
  
   <groupId>org.exoplatform.maven.plugin</groupId>
   <artifactId>diff-extension-maven-plugin</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.x-SNAPSHOT</version>
   <build>
     <plugins>
       <plugin>
