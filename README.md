@@ -66,6 +66,7 @@ targetVersion  | The version after the upgrade | Required, no default value
 files  | The files to check. List here all overriden templates or configuration files | 
 
 FileToCheck properties :
+
 Property | Description 
 -------- | ----------- 
 groupId | The groupId 
