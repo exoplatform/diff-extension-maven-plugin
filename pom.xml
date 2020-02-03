@@ -9,9 +9,7 @@
   <groupId>org.exoplatform.maven.plugin</groupId>
   <artifactId>diff-extension-maven-plugin</artifactId>
   <version>1.0.x-SNAPSHOT</version>
-  <properties>
-    <exo.test.coverage.ratio>0.40</exo.test.coverage.ratio>
-  </properties>
+
   <build>
     <plugins>
       <plugin>
@@ -34,6 +32,8 @@
   <name>Diff Extension Maven Plugin</name>
   <properties>
     <mavenVersion>3.0</mavenVersion>
+    <exo.test.coverage.ratio>0.40</exo.test.coverage.ratio>
+
   </properties>
  
   <dependencies>
