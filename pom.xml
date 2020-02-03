@@ -1,6 +1,6 @@
 <project>
   <modelVersion>4.0.0</modelVersion>
-   <parent>
+   <parent> 
     <artifactId>maven-parent-pom</artifactId>
     <groupId>org.exoplatform</groupId>
     <version>20-RC01</version>
