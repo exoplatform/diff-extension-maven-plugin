@@ -1,6 +1,10 @@
 <project>
   <modelVersion>4.0.0</modelVersion>
- 
+  <parent>
+    <artifactId>addons-parent-pom</artifactId>
+    <groupId>org.exoplatform.addons</groupId>
+    <version>9</version>
+  </parent>
   <groupId>org.exoplatform.maven.plugin</groupId>
   <artifactId>diff-extension-maven-plugin</artifactId>
   <version>1.0.x-SNAPSHOT</version>
